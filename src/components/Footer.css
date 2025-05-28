@@ -1,0 +1,129 @@
+/* Footer.css */
+footer {
+  background: #222222;
+  color: #fff;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.footer-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.footer-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  letter-spacing: 0.02em;
+}
+
+.footer-section-title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.footer-desc,
+.footer-small {
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.footer-small {
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #28A030;
+}
+
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.footer-social a {
+  color: #fff;
+  font-size: 1.5rem;
+  transition: color 0.2s;
+}
+
+.footer-social a:hover {
+  color: #28A030;
+}
+
+.footer-btn {
+  background: #28A030;
+  color: #fff;
+  border-radius: 16px;
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+  border: none;
+  box-shadow: 0 4px 12px rgba(39,39,39,0.4);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.footer-btn:hover {
+  background: #1e8026;
+  box-shadow: 0 8px 24px rgba(39,39,39,0.6);
+}
+
+.footer-section,
+.footer-card {
+  background: transparent;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(39,39,39,0.4);
+  border: 2px solid #181818;
+  padding: 2rem;
+}
+
+@media (max-width: 767px) {
+  .footer-title {
+    font-size: 1.5rem;
+  }
+  .footer-section,
+  .footer-card {
+    padding: 1rem;
+  }
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
