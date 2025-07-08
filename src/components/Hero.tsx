@@ -190,11 +190,11 @@ const Hero = () => {
                 padding: '2rem',
                 boxShadow: '0 8px 32px rgba(40, 160, 48, 0.08)'
               }}>
-                <p>I graduated from Phillips Exeter Academy, Stanford University, and earned my Ph.D. from Yale.</p>
-                <p>I spent 10 years in Africa, including two years in Nigeria during the Biafran War...</p>
-                <p>Both conflicts taught me how quickly societies can unravel...</p>
-                <p>Exeter taught me to give my best in everything—intellectually, socially, physically, and even spiritually...</p>
-                <p>Africa reinforced these lessons. Both experiences ignited in me a hunger for big ideas and the courage to believe in them.</p>
+               <p>I graduated from Phillips Exeter Academy, Stanford University, and earned my Ph.D. from Yale. I spent 10 years in Africa, including two years in Nigeria during the Biafran War, and another ten years in Latin America, four of which were spent during the Nicaraguan Civil War. Both conflicts taught me how quickly societies can unravel. The next global collapse might not be far off. An MIT study predicted that global economic growth will halt by 2030, and a rapid decline will begin around 2040, a finding confirmed by a KPMG study.</p>
+
+<p>At Exeter, I was trained to think critically and create. I didn’t waste time on empty standardized tests. Exeter believed in great teachers, not mediocre curriculums. In my time there, the school flunked or expelled 30-40% of its four-year students. It wasn’t a daycare; it prepared us intellectually and emotionally far better for a failing world than anything available today.</p>
+
+<p>Exeter taught me to give my best in everything—intellectually, socially, physically, and even spiritually. It taught me to fail, get up, and try again. Africa reinforced these lessons. Both experiences ignited in me a hunger for big ideas and the courage to believe in them.</p>
               </div>
             </Card>
           </div>
